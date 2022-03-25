@@ -1,7 +1,3 @@
-/*.header__lang-text_underlined[lang="en"] {
-  text-decoration-line: underline;
-}*/
 input[name="lang"]:checked ~ span {
   text-decoration-line: underline;
 }
-/* type="radio"*/

@@ -1,0 +1,6 @@
+.cover_overlay {
+  opacity: 0.8;
+  }
+.cover_overlay:hover {
+  opacity: 0.3;
+}
