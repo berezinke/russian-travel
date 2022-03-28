@@ -9,18 +9,24 @@
   }
   @media screen and (max-width: 1024px) {
     .place__title{
-      font-size: calc(0.1171875*100vw - 48px);
+      font-size: calc(0.1181*100vw - 48px);
+      max-width: calc((0.8125*100vw + 96px - 48px)/2);
+      width: 100%;
     }
   }
   @media screen and (max-width: 768px) {
     .place__title{
-      font-size: calc(0.02232*100vw + 25px);
+      font-size: calc(0.0235*100vw + 25px);
+      max-width: calc((0.9643*100vw - 21px - 48px)/2);
+      line-height: 1.1em;
     }
   }
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 405px) {
     .place__title{
       max-width: calc((0.9643*100vw - 21px));
-      max-height: calc((0.9643*100vw - 21px));
+      line-height: 1.09em;
       row-gap: 32px;
+      margin-right: auto;
+      margin-left: auto;
     }
   } 

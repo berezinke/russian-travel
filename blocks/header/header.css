@@ -16,13 +16,11 @@
 @media screen and (max-width: 768px) {
   .header{
     max-width: calc(0.9643*100vw - 21px);
-    width: 100%;
     padding-top: calc(0.017857*100vw + 14px);
   }
 }
 @media screen and (max-width: 320px) {
   .header{    
     max-width: calc(100vw - 32px);
-    width: 100%;
   }
 }

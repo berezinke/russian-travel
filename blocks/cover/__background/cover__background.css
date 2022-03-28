@@ -4,4 +4,8 @@
   left: 0px;
   width: 100%;
   object-fit: contain;
+  opacity: 0.8;
+  }
+  .cover__background:hover {
+    opacity: 0.3;
   }

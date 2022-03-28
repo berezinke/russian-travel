@@ -1,9 +1,32 @@
 .place__paragraphs {
-  margin: 0;
+  margin: 0 auto;
+  max-width: 460px;
+  width: 100%;
   padding: 0;
   align-self: start;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  }
+
+  @media screen and (max-width: 1280px) {
+    .place__paragraphs{
+      max-width: calc((0.21875*100vw + 704px - 48px)/2);     
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .place__paragraphs{
+      max-width: calc((0.8125*100vw + 96px - 48px)/2);      
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .place__paragraphs{
+      max-width: calc((0.9643*100vw - 21px - 48px)/2);      
+    }
+  }
+  @media screen and (max-width: 405px) {
+    .place__paragraphs{
+      max-width: calc((0.9643*100vw - 21px));
+    }
   }

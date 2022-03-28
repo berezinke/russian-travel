@@ -1,16 +1,14 @@
 .header__lang-selectors {
   margin: 0;
   padding: 0;
+  padding-bottom: 6px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: bottom;
-  font-size: 24px;
-  line-height: 28px;
-  width: 3em;
+  list-style-type: none;
 }
 @media screen and (max-width: 320px) {
-  .header__lang-selectors{
-    font-size: 18px;
-    line-height: 20px;
+  .header__lang-selectors{    
+    padding-bottom: 8px;
   }
 }

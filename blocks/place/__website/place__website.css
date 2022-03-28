@@ -7,3 +7,11 @@
   justify-content: flex-end;
   align-items: flex-start;
   }
+  @media screen and (max-width: 405px) {
+    .place__website {
+      max-width: calc((0.9643*100vw - 21px));
+      width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }

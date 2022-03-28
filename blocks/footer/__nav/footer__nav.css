@@ -2,11 +2,3 @@
     margin: 0;
     padding: 0;
   }
-  @media screen and (max-width: 760px) {
-    .footer__nav{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
-    }
-  }
