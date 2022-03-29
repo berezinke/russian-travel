@@ -10,10 +10,16 @@
   line-height: 1.06em;
   color: #ffffff;
   text-align: center;
+  z-index: 3;
   }
   @media screen and (max-width: 768px) {
     .cover__title{
-      font-size: calc(0.08929*100vw + 3px);
+      font-size: calc(0.0898*100vw + 3px);
       max-width: calc(0.60714*100vw + 94px);
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .cover__title{
+      line-height: 1.09em;
     }
   }

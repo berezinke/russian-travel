@@ -1,3 +1,20 @@
 .cover__link {
-  text-decoration:none; 
+  text-decoration:none;
   }
+.cover__link::before {
+  position: absolute;
+  max-width: 1184px;
+  max-height: 740px;
+  min-height: auto;
+  width: 100%;
+  height: calc(100vw/1184*740);
+  top: 0;
+  left: 0;
+  content: "";
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  z-index: 2;
+}
+.cover__link:hover::before {
+  opacity: 0.8;
+}
