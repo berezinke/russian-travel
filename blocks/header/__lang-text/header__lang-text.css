@@ -12,3 +12,6 @@
     line-height: 20px;
   }
 }
+.header__lang-text:hover {
+  opacity: 0.5;
+}
